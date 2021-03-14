@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="Index.css">
+</head>
+
+<body>
+  
+  <div class="formstyle">
+    <form  name="forms">
+      
+      <input type="text" name="answer"/>
+     
+     <div class="one">
+      <input type="button" value="1" onclick="forms.answer.value += '1'" />
+      <input type="button" value="2" onclick="forms.answer.value += '2'" />
+     <input type="button" value="3" onclick="forms.answer.value += '3'" />
+     <input type="button" value="4" onclick="forms.answer.value += '4'" />
+     </div>
+     
+     <div class="five">
+      <input type="button" value="5" onclick="forms.answer.value += '5'" />
+      <input type="button" value="6" onclick="forms.answer.value += '6'" />
+      <input type="button" value="7" onclick="forms.answer.value += '7'" />
+      <input type="button" value="8" onclick="forms.answer.value += '8'" />
+    </div>
+     
+     
+     <div class="nine">
+      <input type="button" value="9" onclick="forms.answer.value += '9'" />
+      <input type="button" value="0" onclick="forms.answer.value += '0'" />
+      <input type="button" value="+" onclick="forms.answer.value += '+'" />
+      <input type="button" value="-" onclick="forms.answer.value += '-'" />
+    </div>
+     
+     <div class="x">
+      <input type="button" value="×" onclick="forms.answer.value += '*'" />
+      <input type="button" value="÷" onclick="forms.answer.value += '/'" />
+      <input type="button" value="=" class="btn" onclick="forms.answer.value = eval(forms.answer.value)" />
+      <input type="button" value="ClearAll" onclick="forms.answer.value = '' " id="clear" />
+    </div>
+      
+      
+      
+      
+      
+      
+    </form>
+    
+    
+  </div>
+  
+  
+  <!-- Project -->
+  <script src="Main.js"></script>
+</body>
+</html>

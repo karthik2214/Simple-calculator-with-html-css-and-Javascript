@@ -1,0 +1,64 @@
+#clear{
+  width: 200px;
+}
+
+.formstyle{
+  width: 250px;
+  height: 400px;
+  margin: auto;
+  background: #2d3436;
+  border: solid black 12px;
+}
+
+input{
+  font-size: 1rem;
+  margin: 10px 8px;
+}
+
+.one{
+  /*padding-left: 40px;*/
+  font-size: 3rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.one input{
+  background: white;
+  padding-right: 16px;
+  text-align: center;
+}
+
+
+.five{
+  font-size: 3rem;
+  text-align: center;
+  padding-left: 11px;
+}
+
+.five input{
+background: white;
+  padding-right: 14px;
+  text-align: center;
+}
+
+.nine{
+  font-size: 3rem;
+  text-align: center;
+}
+
+.nine input{
+background: white;
+  padding-right: 16px;
+  text-align: center;
+}
+
+.x{
+  font-size: 3rem;
+  text-align: center;
+}
+
+.x input{
+background: white;
+  padding-right: 16px;
+  text-align: center;
+}
